@@ -1,8 +1,12 @@
+import payBillImage from "../assets/projects-photo/Pay-Bill.jpg";
+
+
+
 export const projects = [
   {
     id: 1,
     title: "Pay Bill Website",
-    image: "/src/assets/projects-photo/Pay-Bill.jpg",
+    image: payBillImage,
     description: "Payment web application.",
      overview:
     "Pay Bill Website is a responsive web application where users can pay utility bills easily. The project is built with React, Tailwind CSS and Firebase Authentication.",
