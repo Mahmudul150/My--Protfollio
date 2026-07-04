@@ -37,7 +37,7 @@ const Hero = () => {
             {/* BUTTONS */}
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-8">
               <a
-                href="/resume.pdf"
+                // href="/resume"
                 download
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 transition"
               >
