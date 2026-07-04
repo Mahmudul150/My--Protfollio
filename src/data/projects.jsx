@@ -1,4 +1,6 @@
 import payBillImage from "../assets/projects-photo/Pay-Bill.jpg";
+import plantCareImage from "../assets/projects-photo/demo-projects.png";
+import ecommerceImage from "../assets/projects-photo/demo-projects-2.png";
 
 
 
@@ -27,6 +29,52 @@ export const projects = [
     
     
   },
+  {
+    id: 2,
+    title: "Plant Care Tracker",
+    image: plantCareImage,
+    description: "Plant management web application.",
+    overview:
+      "A full-featured plant care application where users can add, update, and monitor their plants. Users can also track watering schedules and plant health.",
+
+    challenges: [
+      "Implemented CRUD operations.",
+      "Integrated Firebase Authentication.",
+      "Built responsive layouts using Tailwind CSS.",
+      "Managed user-specific plant data.",
+    ],
+
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Express.js",
+    ],
+
+  },
+  {
+  id: 3,
+  title: "E-Commerce Website",
+  image: ecommerceImage,
+  description: "Modern online shopping platform.",
+
+  overview:
+    "A fully responsive e-commerce website where users can browse products, view product details, add items to the cart, and complete purchases through a clean and user-friendly interface.",
+
+  challenges: [
+    "Implemented product filtering and searching.",
+    "Developed shopping cart functionality.",
+    "Created responsive layouts for all devices.",
+    "Managed application state efficiently.",
+  ],
+
+  technologies: [
+    "React",
+    "Tailwind CSS",
+    "JavaScript",
+    "Firebase",
+  ],
+}
 
 ];
 
@@ -36,56 +84,7 @@ export const projects = [
 
 
 
-// export const skills = [
-//   {
-//     id: 1,
-//     name: "HTML5",
-//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-//     level: 95,
-//   },
-//   {
-//     id: 2,
-//     name: "CSS3",
-//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-//     level: 90,
-//   },
-//   {
-//     id: 3,
-//     name: "JavaScript",
-//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-//     level: 88,
-//   },
-//   {
-//     id: 4,
-//     name: "React",
-//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-//     level: 90,
-//   },
-//   {
-//     id: 5,
-//     name: "Tailwind CSS",
-//     icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-//     level: 92,
-//   },
-//   {
-//     id: 6,
-//     name: "Node.js",
-//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-//     level: 75,
-//   },
-//   {
-//     id: 7,
-//     name: "Express.js",
-//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-//     level: 70,
-//   },
-//   {
-//     id: 8,
-//     name: "MongoDB",
-//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-//     level: 75,
-//   },
-// ];
+
 
 
 
