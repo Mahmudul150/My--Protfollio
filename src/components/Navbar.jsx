@@ -43,7 +43,7 @@ const toggleTheme = () => {
           to="/"
           className="text-2xl font-bold text-blue-600 dark:text-white tracking-wide"
         >
-          <img className="w-10 h-10 rounded-2xl dark:text-white tracking-wide" src="/public/logo.png" alt="" />
+          <img className="w-10 h-10 rounded-2xl dark:text-white tracking-wide" src="/logo.png" alt="" />
         </Link>
         
 
