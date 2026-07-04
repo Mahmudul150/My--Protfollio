@@ -30,10 +30,10 @@ const About = () => {
           <div>
 
             <p className="text-gray-600 dark:text-gray-300 leading-8 mb-8">
-              <span className="text-2xl text-black">I</span> 'm Mahmudul Hasan, a passionate Frontend Developer who enjoys
+              <span className="text-2xl   dark:bg-slate-900 transition-colors">I</span> 'm Mahmudul Hasan, a passionate Full Stack Developer who enjoys
               building modern, responsive, and user-friendly websites. I have
-              experience with React.js, Tailwind CSS, JavaScript, Firebase,
-              Express.js, MongoDB, and Node.js.
+              experience with React.js, Tailwind CSS, JavaScript, TypeScript,
+              Express.js, Postgresql, and Node.js.
 
               <br />
               <br />
@@ -43,26 +43,6 @@ const About = () => {
               <br />
               In my free time, I enjoy exploring new tech trends, watching programming tutorials, working on side projects, and sometimes listening to music or relaxing to refresh my mind.
             </p>
-
-            
-
-            {/* Career Objective */}
-
-            <div className="mt-10 p-6 rounded-xl bg-slate-100 dark:bg-slate-800 transition-colors duration-300">
-
-              <h4 className="text-xl font-semibold mb-3 text-gray-800 dark:text-white">
-                Career Objective
-              </h4>
-
-              <p className="text-gray-600 dark:text-gray-300 leading-7">
-                My goal is to become a skilled Full Stack Developer by
-                continuously improving my knowledge and building real-world
-                projects. I enjoy working with modern technologies and solving
-                challenging problems while creating high-quality web
-                applications.
-              </p>
-
-            </div>
 
           </div>
 

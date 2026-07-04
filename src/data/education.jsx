@@ -4,16 +4,14 @@ export const education = [
     degree: "Diploma in Computer Science & Technologies",
     institution: "Feni Polytechnic Institute",
     duration: "2022 - Present",
-    result: "CGPA: Running",
     description:
-      "Studying Computer Science & Engineering with a focus on software Engineer, web technologies, algorithms, and databases.",
+      "Deep diving into core concepts of computer science including DSA, OOP, and full-stack web development with a focus on building scalable applications.",
   },
   {
     id: 2,
     degree: "Secondary School Certificate (SSC)",
     institution: "JhulonPol Beni Madob High School",
     duration: "2020 - 2022",
-    result: "GPA: 4.89",
     description:
       "Completed Secondary education in the commerce  group with a strong academic foundation.",
   },

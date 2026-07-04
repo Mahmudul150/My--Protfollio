@@ -28,8 +28,8 @@ const toggleTheme = () => {
     { name: "Home", path: "#home" },
     { name: "About", path: "#about" },
     { name: "Skills", path: "#skills" },
+    { name: "Services", path: "#services"},
     { name: "Education", path: "#education" },
-    { name: "Experience", path: "#experience" },
     { name: "Projects", path: "#projects" },
     { name: "Contact", path: "#contact" },
   ];
@@ -43,8 +43,9 @@ const toggleTheme = () => {
           to="/"
           className="text-2xl font-bold text-blue-600 dark:text-white tracking-wide"
         >
-          Mahmudul
+          <img className="w-10 h-10 rounded-2xl dark:text-white tracking-wide" src="/public/logo.png" alt="" />
         </Link>
+        
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8 font-medium">
@@ -59,6 +60,20 @@ const toggleTheme = () => {
             </li>
           ))}
         </ul>
+        {/* darkmode button */}
+         <button
+        onClick={toggleTheme}
+           className="
+    hidden md:flex items-center justify-center
+    p-2 rounded-full ml-4 transition
+    bg-slate-900 text-white border border-slate-900
+    hover:bg-slate-800
+    dark:bg-yellow-400 dark:text-slate-900 dark:border-yellow-400
+    dark:hover:bg-yellow-300
+  "     
+     >
+  {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+</button>
 
         {/* Hire Me Button */}
         <a
@@ -67,12 +82,7 @@ const toggleTheme = () => {
         >
           Hire Me
         </a>
-          <button
-  onClick={toggleTheme}
-  className="hidden md:flex items-center justify-center p-2 rounded-full border border-gray-300 dark:border-gray-600 ml-4 hover:bg-gray-100 dark:hover:bg-slate-700 transition"
->
-  {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-</button>
+         
         {/* Mobile Menu Button */}
         <button
           className="md:hidden"

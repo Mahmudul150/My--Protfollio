@@ -26,13 +26,12 @@ const Hero = () => {
             </h1>
 
             <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-4 text-gray-600 dark:text-gray-300">
-              Frontend Developer
+              Full Stack Developer
             </h2>
 
             <p className="mt-6 text-sm sm:text-base leading-7 text-gray-600 dark:text-gray-300">
-              I build modern, responsive and user-friendly web applications
-              using React.js, Tailwind CSS, JavaScript and other modern
-              technologies. I love solving problems and creating beautiful UI.
+              I build modern, responsive and user-friendly responsive web applications
+              using Next.js, React.js.
             </p>
 
             {/* BUTTONS */}
